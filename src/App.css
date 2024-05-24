@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  text-decoration: none !important;
+}
+
+body {
+  background-color: black !important;
+}
+
+h1 {
+  font-size: 50px !important;
+}
+
+footer{
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: relative;
+  margin-top: 50px;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+a{
+  color: white !important;
+}
+
+a:hover {
+  color: #198754 !important;
+}
+
+.foot{
+  max-height: 50px !important;
+}
+
+.nav-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  object-fit: contain;
+}
+
+.nav-img img {
+  height: 100px;
+}
+
+.navbar {
+  font-size: 30px; 
+}
+
+.nav-link {
+  padding: 15px !important;
+}
+
+.nav-item:hover {
+  color: #198754 !important;
+}
+
+.active {
+  background-color: #198754 !important;
+  color: white !important;
+}
+
+.active:hover {
+  color: white !important;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px !important;
+}
+
+.footer-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-img img {
+  width: 100px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.logo-wrapper img {
+  width: 100px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 150px;
+  height: 50px;
+  margin: 0px 5px !important;
+}
+
+.app-logo {
+  width: 50px !important;
+  border-radius: 10px;
+}
+
+.trust {
+  border: 2px solid white;
+}
+
+.newsweek {
+  width: 40% !important;
+  margin-bottom: 30px;
+}
+
+.download {
+  width: 90px !important;
+  height: 80% !important;
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 10px 5px white;
+}
+
+.carousel {
+  height: fit-content !important;
+}
+
+.caption {
+  top: 0;
+}
+
+.carousel-wrapper {
+  margin: none !important;
+  border: none !important;
+  padding: 30px !important;
+}
+
+.banner {
+  background-color: aliceblue;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-line {
+  padding: 3px;
+  background-color: aliceblue;
+  height: 100px;
+  width: 2px;
+  border-radius: 20px;
+}
+.vertical-space {
+  padding: 30px;
+}
