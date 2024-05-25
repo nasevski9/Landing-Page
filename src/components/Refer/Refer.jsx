@@ -24,15 +24,14 @@ export default function Refer() {
 
             <div className="row">
                 <div className="col-lg-12">
-                    <div className="text-center p-3 vertical">
-                        <video width="400" height="300" controls>
+                    <div className="text-center p-3">
+                        <video className="embed-responsive-item" width="400" height="300" controls>
                             <source src='https://video.wixstatic.com/video/9f51a9_419df69abd6e4fc2b72236b1d991b608/1080p/mp4/file.mp4' type="video/mp4"/>
                         </video>
-                        <div className="vertical-space">
-                            <div className="vertical-line"></div>
-                        </div>
-                        <div className="d-flex justify-content-center align-items-center">
-                            <Link to='/opportunity'><button className="btn btn-success fs-3 p-3">Get Paid on Daily Purchases</button></Link>
+                        <div className="d-flex justify-content-center align-items-center mt-3">
+                            <Link to='/opportunity'>
+                                <button className="btn btn-success fs-4 p-2">Get Paid on Daily Purchases</button>
+                            </Link>
                         </div>
                     </div>
                 </div>

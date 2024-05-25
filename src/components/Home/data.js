@@ -27,37 +27,32 @@ export const images = [adidas, nike, shein, walmart, booking, travelworld, airbn
 export const data = [
     {
         id: 1,
-        step: "Step 1",
         title: "Open the App",
-        description: "Spend the world of savings - excitingly explore products, eVouchers, Cashback Deals and discover our online and local Partners.",
+        description: "Explore products and discover our Partners.",
         image: app1
     },
     {
         id: 2,
-        step: "Step 2",
         title: "Cashback Deals",
-        description: "In one look, find all Cashback Deals. Buy Shopping Points for Cashback Deals and turn them into a real Cashback.",
+        description: "In one look, find all Cashback Deals.",
         image: app2
     },
     {
         id: 3,
-        step: "Step 3",
         title: "Products or Partners",
-        description: "Discover millions of products from our online partners or find your favorite store - shop online and return money with each market.",
+        description: "Shop Online, Earn Cash Back.",
         image: app3
     },
     {
         id: 4,
-        step: "Step 4",
         title: "Find Partners Nearby",
-        description: "With the help of myWorld App search radius, discover which local Partners are nearby.",
+        description: "Discover which local Partners are nearby.",
         image: app4
     },
     {
         id: 5,
-        step: "Step 5",
         title: "Explore your Profile",
-        description: "Find the collected Benefits, review your markets and you can invite friends to myWorld for free.",
+        description: "Find the collected Benefits and review your markets.",
         image: app5
     }
 ]

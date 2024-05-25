@@ -63,14 +63,13 @@ export default function Home() {
          
                 <div className="col-lg-12 container">
                     <div className="carousel-wrapper">
-                    <Carousel variant="dark" style={{ width:"500px", height:"500px"}} slide={false}>
+                    <Carousel variant="dark" slide={false} indicators={false}>
                         {data.map((item) => {
                                 return (
                                     <Carousel.Item key={item.id}>
                                         <img src={item.image} alt="App Guide" className="d-block w-100" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                                     <Carousel.Caption className="caption">
-                                        <p className="text-secondary">{item.step}</p>
-                                        <h3>{item.title}</h3>
+                                        <h5>{item.title}</h5>
                                         <p>{item.description}</p>
                                     </Carousel.Caption>
                                     </Carousel.Item>

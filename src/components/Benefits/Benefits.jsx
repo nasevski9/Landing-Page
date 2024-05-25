@@ -26,20 +26,21 @@ export default function Benefits() {
             </div>
 
             <div className="row">
-                <div className="col-lg-12">
-                    <div className="text-center vertical">
-                        <video width="400" height="300" controls>
+                <div className="col-6 col-sm-6 p-3">
+                    <div className="embed-responsive embed-responsive-16by9">
+                        <video className="embed-responsive-item" controls>
                             <source src={cb} type="video/mp4"/>
                         </video>
-                        <div className="vertical-space">
-                            <div className="vertical-line"></div>
-                        </div>
-                        <video width="400" height="300" controls>
+                    </div>
+                </div>
+                <div className="col-6 col-sm-6 p-3">
+                    <div className="embed-responsive embed-responsive-16by9">
+                        <video className="embed-responsive-item" controls>
                             <source src={sp} type="video/mp4"/>
                         </video>
                     </div>
                 </div>
-            </div>
+            </div>  
         </motion.div>
     )
 }

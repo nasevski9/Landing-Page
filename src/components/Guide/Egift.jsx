@@ -37,14 +37,13 @@ export default function Egift() {
                             <h2 className=" text-light text-center">eGift Card</h2>
                         </div>
                         <p className="text-light text-center mb-4">It's so simple to order digital gift cards in myWorld App.</p>
-                        <Carousel variant="dark" style={{ width:"500px", height:"500px"}} slide={false}>
+                        <Carousel variant="dark" indicators={false} slide={false}>
                             {egift.map((item) => {
                                 return (
                                     <Carousel.Item key={item.id}>
                                         <img src={item.image} alt="App Guide" className="d-block w-100" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                                     <Carousel.Caption className="caption">
-                                        <p className="text-secondary">{item.step}</p>
-                                        <h3>{item.title}</h3>
+                                        <h5>{item.title}</h5>
                                         <p>{item.description}</p>
                                     </Carousel.Caption>
                                 </Carousel.Item>
@@ -57,8 +56,8 @@ export default function Egift() {
             
             <div className="row">
                 <div className="d-flex justify-content-center align-items-center col-lg-12">
-                    <Link to='/online-shop'><button className="btn btn-success fs-3 p-3 mx-3">Shopping Online</button></Link>
-                    <Link to='/local-shop'><button className="btn btn-success fs-3 p-3 mx-3">Shopping Local</button></Link>
+                    <Link to='/online-shop'><button className="btn btn-success fs-5 p-2 mx-2">Shopping Online</button></Link>
+                    <Link to='/local-shop'><button className="btn btn-success fs-5 p-2 mx-2">Shopping Local</button></Link>
                 </div>
             </div>
         </motion.div>

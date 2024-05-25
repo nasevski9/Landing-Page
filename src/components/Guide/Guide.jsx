@@ -22,9 +22,9 @@ export default function Guide(){
                     </div>
                 </div>
                 <div className="d-flex justify-content-center align-items-center col-lg-12">
-                    <Link to='/online-shop'><button className="btn btn-success fs-3 p-3 mx-3">Shopping Online</button></Link>
-                    <Link to='/local-shop'><button className="btn btn-success fs-3 p-3 mx-3">Shopping Local</button></Link>
-                    <Link to='/egift-card'><button className="btn btn-success fs-3 p-3 mx-3">eGift Card Shop</button></Link>
+                    <Link to='/online-shop'><button className="btn btn-success fs-5 mx-2 p-2">Shopping Online</button></Link>
+                    <Link to='/local-shop'><button className="btn btn-success fs-5 mx-2 p-2">Shopping Local</button></Link>
+                    <Link to='/egift-card'><button className="btn btn-success fs-5 mx-2 p-2">Shopping with eGift</button></Link>
                 </div>
             </div>
         </motion.div>
