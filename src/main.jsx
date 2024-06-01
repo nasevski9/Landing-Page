@@ -1,19 +1,32 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Business from './components/Business/Business.jsx'
-import Error from './components/Error/Error.jsx';
-import Home from './components/Home/Home.jsx';
-import Guide from './components/Guide/Guide.jsx';
-import Online from './components/Guide/Online.jsx';
-import Local from './components/Guide/Local.jsx';
-import Egift from './components/Guide/Egift.jsx';
-import Benefits from './components/Benefits/Benefits.jsx';
-import Refer from './components/Refer/Refer.jsx';
+import App from './App.jsx'
+
+import Business from './components/Usa/Business/Business.jsx'
+import Error from './components/Usa/Error/Error.jsx';
+import Home from './components/Usa/Home/Home.jsx';
+import Guide from './components/Usa/Guide/Guide.jsx';
+import Online from './components/Usa/Guide/Online.jsx';
+import Local from './components/Usa/Guide/Local.jsx';
+import Egift from './components/Usa/Guide/Egift.jsx';
+import Benefits from './components/Usa/Benefits/Benefits.jsx';
+import Refer from './components/Usa/Refer/Refer.jsx';
+import Owner from './components/Usa/Owner/Owner.jsx';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import Choice from './components/Choice/Choice.jsx';
+import HomeMk from './components/Mk/HomeMk/HomeMk.jsx';
+import BusinessMk from './components/Mk/BusinessMk/BusinessMk.jsx';
+import BenefitsMk from './components/Mk/BenefitsMk/BenefitsMk.jsx';
+import GuideMk from './components/Mk/GuideMk/GuideMk.jsx';
+import LocalMk from './components/Mk/GuideMk/LocalMk.jsx';
+import OnlineMk from './components/Mk/GuideMk/OnlineMk.jsx';
+import EgiftMk from './components/Mk/GuideMk/EgiftMk.jsx';
+import ReferMk from './components/Mk/ReferMk/ReferMk.jsx';
+import MediaBox from './components/Mk/MediaBox/MediaBox.jsx';
+import OwnerMk from './components/Mk/OwnerMk/OwnerMk.jsx';
 
 const router = createBrowserRouter([
   {
@@ -23,35 +36,83 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
+        element: <Choice />,
       },
       {
-        path: '/opportunity',
+        path: '/usa',
+        element: <Home />
+      },
+      {
+        path: '/usa/opportunity',
         element: <Business />
       },
       {
-        path: '/how-to',
+        path: '/usa/owner',
+        element: <Owner />
+      },
+      {
+        path: '/usa/how-to',
         element: <Guide />
       },
       {
-        path: '/online-shop',
+        path: '/usa/online-shop',
         element: <Online />
       },
       {
-        path: '/egift-card',
+        path: '/usa/egift-card',
         element: <Egift />
       },
       {
-        path: '/local-shop',
+        path: '/usa/local-shop',
         element: <Local />
       },
       {
-        path: '/benefits',
+        path: '/usa/benefits',
         element: <Benefits />
       },
       {
-        path: '/refer',
+        path: '/usa/refer',
         element: <Refer/>
+      },
+      {
+        path: '/mk',
+        element: <HomeMk />
+      },
+      {
+        path: '/mk/opportunity',
+        element: <BusinessMk />
+      },
+      {
+        path: '/mk/how-to',
+        element: <GuideMk />
+      },
+      {
+        path: '/mk/online-shop',
+        element: <OnlineMk />
+      },
+      {
+        path: '/mk/egift-card',
+        element: <EgiftMk />
+      },
+      {
+        path: '/mk/local-shop',
+        element: <LocalMk />
+      },
+      {
+        path: '/mk/benefits',
+        element: <BenefitsMk />
+      },
+      {
+        path: '/mk/refer',
+        element: <ReferMk />
+      },
+      {
+        path: '/mk/media-box',
+        element: <MediaBox />
+      },
+      {
+        path: '/mk/owner',
+        element: <OwnerMk />
       }
     ]
   }
