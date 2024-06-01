@@ -157,8 +157,8 @@ a:hover {
   align-items: center;
   margin: none !important;
   border: none !important;
-  padding: 30px !important;
-  max-width: 400px !important;
+  padding: 20px 0px;
+  max-width: 500px !important;
 }
 
 .banner {

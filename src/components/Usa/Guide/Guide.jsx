@@ -14,8 +14,8 @@ export default function Guide(){
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}>  
-             <div className="row p-3">
-                <div className="col-lg-12">
+            <div className="row p-3">
+                <div className="col-12">
                     <h1 className="text-center text-light mb-4">User Guide</h1>
                     <h5 className="text-center text-light">Explore different ways to use the myworld App to get your rewards.</h5>
 
@@ -25,7 +25,7 @@ export default function Guide(){
                         </video>
                     </div>
                 </div>
-                <div className="d-flex justify-content-center align-items-center col-lg-12">
+                <div className="d-flex justify-content-center align-items-center col-12">
                     <Link to='/usa/online-shop'><button className="btn btn-success fs-5 mx-2 p-2">Shopping Online</button></Link>
                     <Link to='/usa/local-shop'><button className="btn btn-success fs-5 mx-2 p-2">Shopping Local</button></Link>
                     <Link to='/usa/egift-card'><button className="btn btn-success fs-5 mx-2 p-2">Shopping with eGift</button></Link>

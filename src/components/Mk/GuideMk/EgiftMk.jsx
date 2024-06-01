@@ -23,7 +23,7 @@ export default function EgiftMk() {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}>
             <div className="row p-3">
-                <div className="col-lg-12">
+                <div className="col-12">
                     <h1 className="text-center text-light mb-4">Пазарувај со Дигитален Ваучер</h1>
                     <div className="text-center p-3">
                         <video width="800" height="450" controls>
@@ -35,7 +35,7 @@ export default function EgiftMk() {
             </div>   
             
             <div className="row">
-                <div className="col-lg-12 container">
+                <div className="col-12 container">
                     <div className="carousel-wrapper">
                         <div className="logo-wrapper">
                             <img src={egiftlogo} alt="Egift Card Logo" />
@@ -60,7 +60,7 @@ export default function EgiftMk() {
             </div>
             
             <div className="row">
-                <div className="d-flex justify-content-center align-items-center col-lg-12">
+                <div className="d-flex justify-content-center align-items-center col-12">
                     <Link to='/mk/online-shop'><button className="btn btn-success fs-5 p-2 mx-2">Online Пазарување</button></Link>
                     <Link to='/mk/local-shop'><button className="btn btn-success fs-5 p-2 mx-2">Локалнно Пазарување</button></Link>
                 </div>

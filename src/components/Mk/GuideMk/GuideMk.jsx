@@ -17,7 +17,7 @@ export default function GuideMk(){
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}>  
              <div className="row p-3">
-                <div className="col-lg-12">
+                <div className="col-12">
                     <h1 className="text-center text-light mb-4">Корисничко Упатство</h1>
                     <h5 className="text-center text-light">Откриј повеќе начини како да ја користиш апликацијата за да ги добиеш бенефитите.</h5>
 
@@ -27,10 +27,10 @@ export default function GuideMk(){
                         </video>
                     </div>
                 </div>
-                <div className="d-flex justify-content-center align-items-center col-lg-12">
-                    <Link to='/mk/online-shop'><button className="btn btn-success fs-5 mx-2 p-2">Online Пазарување</button></Link>
-                    <Link to='/mk/local-shop'><button className="btn btn-success fs-5 mx-2 p-2">Локално Пазаруцвање</button></Link>
-                    <Link to='/mk/egift-card'><button className="btn btn-success fs-5 mx-2 p-2">Пазарување со Дигитален Ваучер</button></Link>
+                <div className="d-flex justify-content-center align-items-center col-12">
+                    <Link to='/mk/online-shop'><button className="btn btn-success fs-5 mx-2 p-2">Online</button></Link>
+                    <Link to='/mk/local-shop'><button className="btn btn-success fs-5 mx-2 p-2">Scan&Go</button></Link>
+                    <Link to='/mk/egift-card'><button className="btn btn-success fs-5 mx-2 p-2">eVoucher</button></Link>
                 </div>
             </div>
             <BenefitsMk />

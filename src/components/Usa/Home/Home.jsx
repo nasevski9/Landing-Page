@@ -23,7 +23,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}>
                 <div className="d-flex justify-content-center align-items-center row">
-                    <div className="col-lg-12 p-3">
+                    <div className="col-12 p-3">
                         <h1 className="text-center text-light">Shop, Earn.<br />Money Returns.</h1>
                         <div className="text-center p-3">
                             <video width="800" height="450" controls>
@@ -36,11 +36,11 @@ export default function Home() {
                     </div>
 
                     <div className="row">
-                        <div className="col-lg-12 text-center">
+                        <div className="col-12 text-center">
                             <img src={newsweek} alt="Newsweek Reward" className="newsweek"/>
                         </div>
                     </div>
-                    <div className="col-lg-12 text-center banner">
+                    <div className="col-12 text-center banner">
                         <div className="row">
                             <h2 className="text-center fst-italic fs-1 pt-4">Some recognizable partners</h2>
                         </div>
@@ -63,12 +63,12 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-12 pt-4">
+                    <div className="col-12 pt-4">
                         <h1 className="text-center text-light mb-3"><IoIosPhonePortrait /> App Guide</h1>
                     </div>
                 
             
-                    <div className="col-lg-12 container">
+                    <div className="col-12 container">
                         <div className="carousel-wrapper">
                         <Carousel variant="dark" slide={false} indicators={false} interval={null}>
                             {data.map((item) => {
@@ -85,20 +85,20 @@ export default function Home() {
                         </Carousel>
                         </div>
                     </div>
-                    <div className="col-lg-12 text-center">
+                    <div className="col-12 text-center">
                         <a href="https://www.myworld.com/mk/joinforfree?redirect_uri=https%3a%2f%2flink.myworld.com%2fdynamic%2fBngfFLKpfv6YR9ud9" target="_blank"><button className="btn btn-success fs-4 p-2">Get it Now</button></a>
                     </div>
                 
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-12 text-center pt-3">
+                    <div className="col-12 text-center pt-3">
                         <p className="text-center text-light fs-5">Find the collected Benefits, review your markets and you can invite friends to myWorld for free.</p>
                     </div>
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-12 text-center pt-3">
+                    <div className="col-12 text-center pt-3">
                             <a href="https://www.trustpilot.com/review/myworld.com" target="_blanm">
                                 <img src={trust} alt="Trustpilot review" className="trust" />
                             </a>

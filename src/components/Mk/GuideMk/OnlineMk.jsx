@@ -24,7 +24,7 @@ export default function OnlineMk() {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}>
             <div className="row p-3">
-                <div className="col-lg-12">
+                <div className="col-12">
                     <h1 className="text-center text-light mb-4">Online Пазарување</h1>
                     <div className="text-center p-3">
                         <video width="800" height="450" controls>
@@ -36,7 +36,7 @@ export default function OnlineMk() {
             </div>
 
             <div className="row">
-                <div className="col-lg-12 container">
+                <div className="col-12 container">
                     <div className="carousel-wrapper">
                         <h2 className=" text-light text-center mb-3"><RiShoppingCart2Line /> Online Партнер</h2>
                         <p className="text-light text-center mb-4">Како да го пронајдете online партнерот.</p>
@@ -58,9 +58,9 @@ export default function OnlineMk() {
             </div>
 
             <div className="row">
-                <div className="d-flex justify-content-center align-items-center col-lg-12">
+                <div className="d-flex justify-content-center align-items-center col-12">
                     <Link to='/mk/local-shop'><button className="btn btn-success fs-5 p-2 mx-2">Локално Пазарување</button></Link>
-                    <Link to='/mk/egift-card'><button className="btn btn-success fs-5 p-2 mx-2">Пазарување со Дигитален Ваучер</button></Link>
+                    <Link to='/mk/egift-card'><button className="btn btn-success fs-5 p-2 mx-2">Дигитални Картички</button></Link>
                 </div>
             </div>
         </motion.div>

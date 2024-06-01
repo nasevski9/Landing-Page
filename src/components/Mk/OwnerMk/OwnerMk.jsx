@@ -31,7 +31,7 @@ export default function OwnerMk() {
 
             
             <div className="row">
-                    <div className="col-lg-12 text-center">
+                    <div className="col-12 text-center">
                         <h1 className="mb-4 text-light">Звучи интересно?</h1>
                         <h2 className="mb-4 text-light">Пишете ни за да ги дознаете следните чекори.</h2>
                             <div className="fb-ig">

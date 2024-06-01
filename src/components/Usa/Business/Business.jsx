@@ -21,7 +21,7 @@ export default function Business() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}>
                 <div className="row p-3">
-                    <div className="col-lg-12 text-center text-light">
+                    <div className="col-12 text-center text-light">
                         <h1 className="">We earn on the <br />world's daily purchases</h1>
                         <h5 className="p-3">Check out this video to understand how!</h5>
                         <div className="text-center">
@@ -33,7 +33,7 @@ export default function Business() {
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-12 text-center text-light">
+                    <div className="col-12 text-center text-light">
                         <h1 className="mb-4">Sounds interesting?</h1>
                         <h2 className="mb-4">Check out startlyconet.com to start your journey!</h2>
                             <div>

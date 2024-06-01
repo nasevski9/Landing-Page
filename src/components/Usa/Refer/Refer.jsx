@@ -15,7 +15,7 @@ export default function Refer() {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}>
             <div className="row">
-                <div className="col-lg-12 p-3">
+                <div className="col-12 p-3">
                     <h1 className="text-center text-light mb-4">Share and Gain</h1>
                     <h5 className="text-center text-light">Learn how you can earn sharing the myworld app.</h5>
                     <div className="text-center p-3">
@@ -27,7 +27,7 @@ export default function Refer() {
             </div>
 
             <div className="row">
-                <div className="col-lg-12">
+                <div className="col-12">
                     <div className="text-center p-3">
                         <div className="embed-responsive embed-responsive-16by9">
                             <video className="embed-responsive-item" width="400" height="300" controls>

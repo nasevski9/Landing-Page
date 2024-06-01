@@ -22,7 +22,7 @@ export default function BusinessMk() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}>
                 <div className="row p-3">
-                    <div className="col-lg-12 text-center text-light">
+                    <div className="col-12 text-center text-light">
                         <h1 className="">Заработуваме од секојдневните <br />купувања од целиот свет</h1>
                         <h5 className="p-3">Погледнете го видеово за да разберете како!</h5>
                         <div className="text-center">
@@ -34,7 +34,7 @@ export default function BusinessMk() {
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-12 text-center">
+                    <div className="col-12 text-center">
                         <h1 className="mb-4 text-light">Звучи интересно?</h1>
                         <h2 className="mb-4 text-light">Пишете ни за да ги дознаете следните чекори.</h2>
                             <div className="fb-ig">

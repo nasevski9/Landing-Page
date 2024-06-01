@@ -17,7 +17,7 @@ export default function Owner() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}>
                 <div className="row">
-                <div className="col-lg-12 p-3">
+                <div className="col-12 p-3">
                     <h1 className="text-center text-light mb-4">Own a Business?</h1>
                     <h5 className="text-center text-light">Learn how you can grow your business through myWorld.</h5>
                     <div className="text-center p-3">
@@ -30,7 +30,7 @@ export default function Owner() {
 
             
             <div className="row">
-                    <div className="col-lg-12 text-center text-light">
+                    <div className="col-12 text-center text-light">
                         <h1 className="mb-4">Sounds interesting?</h1>
                         <h3 className="mb-4">Click on the button below <br />You'll be redirected to a contact page <br />{/*In the description, add code=5 to receive a gift!*/}</h3>
                             <div>

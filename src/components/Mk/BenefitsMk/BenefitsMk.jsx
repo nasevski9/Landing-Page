@@ -8,7 +8,7 @@ export default function BenefitsMk() {
     return (
         <>
                     <div className="row p-3">
-                        <div className="col-lg-12">
+                        <div className="col-12">
                             <h1 className="text-center text-light mb-4">Предности</h1>
                             <h5 className="text-center text-light">Дознајте за предностите кои ги добивате кога купувате со myWorld.</h5>
                             <div className="text-center p-3">

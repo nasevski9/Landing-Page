@@ -23,7 +23,7 @@ export default function LocalMk() {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}>
             <div className="row p-3">
-                <div className="col-lg-12">
+                <div className="col-12">
                     <h1 className="text-center text-light mb-4">Пазарувај Локално</h1>
                     <div className="text-center p-3">
                         <video width="800" height="450" controls>
@@ -34,7 +34,7 @@ export default function LocalMk() {
                 </div>
             </div>   
             <div className="row">
-                <div className="col-lg-12 container">
+                <div className="col-12 container">
                     <div className="carousel-wrapper">
                          <div className="logo-wrapper">
                             <img src={scng} alt="Scan and Go Logo" />
@@ -59,9 +59,9 @@ export default function LocalMk() {
             </div>
 
             <div className="row">
-                <div className="d-flex justify-content-center align-items-center col-lg-12">
+                <div className="d-flex justify-content-center align-items-center col-12">
                     <Link to='/mk/online-shop'><button className="btn btn-success fs-5 p-2 mx-2">Online Пазарување</button></Link>
-                    <Link to='/mk/egift-card'><button className="btn btn-success fs-5 p-2 mx-2">Пазарување со Дигитален Ваучер</button></Link>
+                    <Link to='/mk/egift-card'><button className="btn btn-success fs-5 p-2 mx-2">Дигитални Картички</button></Link>
                 </div>
             </div>
         </motion.div>

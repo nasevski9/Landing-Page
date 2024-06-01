@@ -17,7 +17,7 @@ export default function Benefits() {
                 exit={{ opacity: 0 }}>
                 
                     <div className="row p-3">
-                        <div className="col-lg-12">
+                        <div className="col-12">
                             <h1 className="text-center text-light mb-4">Rewards</h1>
                             <h5 className="text-center text-light">Learn about the benefits you get when shopping with myworld.</h5>
                             <div className="text-center p-3">

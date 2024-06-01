@@ -34,7 +34,7 @@ export default function ReferMk() {
             </div>
 
             <div className="row">
-                <div className="text-center p-3">
+                <div className="text-center">
                     <h3 className="text-light">Погледнете низ слики како да ја препорачате апликацијата и да добиете поени</h3>
                     <div className="col-12 d-flex justify-content-center align-items-center">
                         <div className="carousel-wrapper">
